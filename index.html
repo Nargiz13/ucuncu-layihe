@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Online Converter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="converter">
+      <div class="header"><img src="imgs/banksvg.svg" alt="" class="logo"></div>
+      <div class="li-bank">
+        <div class="bank">БАНК</div>
+        <div class="business">БИЗНЕС</div>
+        <div class="invest">ИНВЕСТИЦИИ</div>
+        <div class="stra">СТРАХОВАНИЕ</div>
+        <div class="mobile">МОБАЙЛ</div>
+        <div class="put">ПУТЕШЕСТВИЯ</div>
+        <div class="rise">РАЗВЛЕЧЕНИЯ</div>
+      </div>
+      <button class="login-buttons"><p>ВОЙТИ</p></button>
+    </div>
+    <div class="block">
+      <h1>Конвертер валют онлайн</h1>
+      <div class="block-one">
+        <div class="converter-one">
+          <div class="text-one">У меня есть</div>
+          <div class="box-one"><button class="money">RUB</button><button>USD</button><button>EUR</button><button>AZN</button></div>
+          <input type="word" class="left-input"><p class="left-paragraph"></p>
+          <div class="conversion-rate-info"></div>
+
+          <div class="error-message" style="color: red;"></div>
+        </div>
+        <div class="converter-two">
+          <div class="text-two">Хочу приобрести</div>
+          <div class="box-two"><button class="money">RUB</button><button>USD</button><button>EUR</button><button>AZN</button></div>
+          <input type="word" class="right-input"><p class="right-paragraph"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
